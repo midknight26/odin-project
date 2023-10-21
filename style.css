@@ -41,9 +41,11 @@ ul{
 
 .footer{
   display: flex;
-  flex: 0;
+  min-height: 50px;
   justify-content: center;
   align-items: center;
+  background-color: #1F2937;
+  color: white;
 }
 
 .section1{
@@ -63,7 +65,7 @@ img{
 .random{
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 5%;
   text-align: center;
 }
 
@@ -72,6 +74,9 @@ img{
   border-radius: 20px;
   height: 110px;
   width: 110px;
+  background-image: url('dog.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .info{
@@ -87,11 +92,15 @@ img{
 }
 
 .author{
+  margin-top: 20px;
   text-align: right;
+  color: rgb(76, 87, 98);
 }
 
 .quote{
   text-align: center;
+  font-family: fantasy;
+  color: #323943;
 }
 
 .section4{
@@ -102,10 +111,12 @@ img{
 .blue{
   display: flex;
   background-color: #3882F6;
-  min-height: 50%;
-  min-width: 80%;
+  min-height: 40%;
+  min-width: 70%;
   justify-content: space-around;
   align-items: center;
+  color: white;
+  border-radius: 10px;
 }
 
 .sec1text{
@@ -138,3 +149,4 @@ button{
   font-weight: bolder;
   font-size: 12px;
 }
+
